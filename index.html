@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sam's</title>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/images/wm-tosca.ico">
+  <link rel="stylesheet" href="assets/css/full-page-scroll.css">
+  <link rel="stylesheet" href="assets/css/fingerloading.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/grid-gallery.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+  <div class="container-loading">
+    <div class="loading">
+      <div class="finger finger-1">
+        <div class="finger-item">
+          <span></span><i></i>
+        </div>
+      </div>
+      <div class="finger finger-2">
+        <div class="finger-item">
+          <span></span><i></i>
+        </div>
+      </div>
+      <div class="finger finger-3">
+        <div class="finger-item">
+          <span></span><i></i>
+        </div>
+      </div>
+      <div class="finger finger-4">
+        <div class="finger-item">
+          <span></span><i></i>
+        </div>
+      </div>
+      <div class="last-finger">
+        <div class="last-finger-item"><i></i></div>
+      </div>
+    </div>
+
+    <div class="loading-text" id="loading-text">
+      <h3>Loading</h3>
+    </div>
+  </div>
+
+
+  <!-- Container All -->
+  <div class="container">
+    <div class="right-nav">
+      <ul>
+        <li><a href="#0" data-goto=".page-1" class="scroll active">
+            <ion-icon name="home-outline"></ion-icon>
+          </a></li>
+        <li><a href="#1" data-goto=".page-2" class="scroll">
+            <ion-icon name="bulb-outline"></ion-icon>
+          </a></li>
+        <li><a href="#2" data-goto=".page-3" class="scroll">
+            <ion-icon name="mail-outline"></ion-icon>
+          </a></li>
+      </ul>
+    </div>
+
+    <!-- Home page -->
+    <div class="page scroll-container" id="main">
+      <section class="section1 page-1">
+        <div class="page-description">
+          <h1 class="title">Hello, I am Sam!</h1>
+          <p class="sub-title">I am <span class="text-bold block-text">Samodra</span>. A student, not a web developer.
+            Currently studying my Associate's Degree at <span class="text-bold block-text">Astra Manufacturing
+              Polytechnic</span>. Everything about Web development always makes me interested.</p>
+        </div>
+      </section>
+
+      <section class="section2 page-2">
+        <h1 class="title">Projects</h1>
+        <!-- Project Gallery -->
+        <div class="gallery">
+          <div class="gallery-container">
+
+          </div>
+        </div>
+        <!-- Pagination -->
+        <div class="pagination">
+          <div class="pagination-container">
+          </div>
+        </div>
+      </section>
+
+      <section class="section3 page-3">
+        <h1 class="title">Contact Me</h1>
+
+        <div class="d-flex flex-50">
+          <div class="profile-container">
+            <div class="profile">
+              <img src="assets/images/pp.jpg" alt="Profile Picture">
+              <h2>Samodra</h2>
+            </div>
+
+            <div class="contact">
+              <ul>
+                <li><a href="mailto: szsamodra@gmail.com" id="email" target="_blank">
+                    <ion-icon name="mail"></ion-icon> szsamodra@gmail.com
+                  </a></li>
+                <li><a href="https://www.linkedin.com/in/samodra-b0a055199/" id="linkedin" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon> Samodra .
+                  </a></li>
+                <li><a href="https://www.instagram.com/samodra.me/" id="instagram" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon> samodra.me
+                  </a></li>
+                <li><a href="https://web.facebook.com/samodra30" id="facebook" target="_blank">
+                    <ion-icon name="logo-facebook"></ion-icon> Samodra
+                  </a></li>
+                <li><a href="https://twitter.com/saamodra" id="twitter" target="_blank">
+                    <ion-icon name="logo-twitter"></ion-icon> @saamodra
+                  </a></li>
+                <li><a href="https://github.com/saamodra" id="github" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon> saamodra
+                  </a></li>
+              </ul>
+
+            </div>
+          </div>
+          <div>
+            <img src="assets/images/wm-tosca.png" class="wm" alt="Logo">
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- End Homepage -->
+  </div>
+  <!-- End Container -->
+
+
+
+  <script src="assets/js/jquery-1.9.1.js"></script>
+  <script src="assets/js/full-page-scroll.js"></script>
+  <script src="assets/js/anime.min.js"></script>
+  <script src="assets/js/vanilla-tilt.min.js"></script>
+  <script src="assets/js/script.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,499 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+* {
+	box-sizing: border-box;
+}
+a, a:hover {
+	text-decoration: none;
+}
+header {
+	max-height: 100%;
+	position: relative;
+	width: 100%;
+}
+header img {
+	height: 100vh;
+	width: 100%;
+	object-fit: cover;
+	object-position: top;
+}
+nav {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	padding: 10px 40px;
+	display: flex;
+	justify-content: space-between;
+}
+button {
+	/*outline: none;*/
+}
+button:focus {
+	outline: none;
+}
+.navbar-brand a {
+	color: white;
+	font-family: 'Aleo Bold';
+	font-size: 24px;
+	transition: .2s ease;
+}
+.navlink:hover {
+	color: #fff;
+}
+.navlink:hover::after {
+	width: 100%;
+}
+.navbar ul {
+	list-style: none;
+}
+.navbar ul li {
+	display: inline-block;
+	margin-left: 25px;
+}
+.navlink::after {
+	content: '';
+	display: block;
+	padding-bottom: 2px;
+	border-bottom: 2px solid #fff;
+	width: 0;
+	margin: auto;
+	transition: width .2s ease;
+	color: #fff;
+}
+.navlink {
+	color: #fff;
+}
+.input {
+	position: relative;
+}
+.input input {
+	border-radius: 20px;
+	outline: none;
+	border: 2px solid #fff;
+	padding: 3px 30px;
+	background-color: transparent;
+	color: #fff;
+}
+.input input::placeholder {
+	color: #fff;
+}
+.input i {
+	position: absolute;
+	left: 10px;
+	top: 8px;
+	color: #fff;
+}
+.badge-blue {
+	padding: 5px 10px;
+	background-color: #10a6fc;
+	color: #fff;
+	display: inline-block;
+}
+.badge-pink {
+	padding: 5px 10px;
+	background-color: #d21e72;
+	color: #fff;
+	display: inline-block;
+}
+.badge-green {
+	padding: 5px 10px;
+	background-color: #6ab40b;
+	color: #fff;
+	display: inline-block;
+}
+.badge-orange {
+	padding: 5px 10px;
+	background-color: #ff9b00;
+	color: #fff;
+	display: inline-block;
+}
+.badge-gray {
+	padding: 5px 10px;
+	background-color: #8598a0;
+	color: #fff;
+	display: inline-block;
+}
+.description {
+	background-color: rgba(0,0 ,0, .4);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	color: #fff;
+	padding-left: 30px;
+	padding-bottom: 60px;
+}
+.description h2 {
+	margin-top: 20px;
+	font-family: 'Aleo';
+	font-size: 2.3em;
+	font-style: italic;
+	max-width: 60%;
+}
+.description p {
+	max-width: 30%;
+	margin-bottom: 30px;
+}
+.button {
+	display: inline-block;
+	padding: 8px 15px;
+}
+.btn-white-outline {
+	color: #fff;
+	background-color: transparent;
+	border: 1px solid #fff;
+	transition: .2s ease-in-out;
+	border-radius: 5px;
+}
+.btn-white-outline:hover {
+	color: #000;
+	background-color: #fff;
+}
+.btn-pink-outline {
+	color: #d21e72;
+	background-color: transparent;
+	border: 1px solid #d21e72;
+	transition: .2s ease-in-out;
+	border-radius: 5px;
+}
+.btn-pink-outline:hover {
+	color: #fff;
+	background-color: #d21e72;
+}
+.bg-black {
+	background-color: #282828;
+}
+.card-1 {
+	width: 100%;
+}
+.bg-nav {
+	background-color: #3d3c3c;
+}
+.navbar-2 ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-basis: 0;
+}
+.navbar-2 ul li {
+	display: inline-block;
+	flex: 1;
+}
+.navbar-2 ul li a {
+	display: block;
+	padding: 15px 10px;
+	text-align: center;
+	color: #fff;
+	transition: .2s ease-in-out;
+}
+.navbar-2 ul li a:hover {
+	background-color: #242424;
+}
+.card-content {
+	background-color: #fff;
+	padding: 25px;
+}
+.quote {
+	color: #d21e72;
+	font-weight: bold;
+	font-size: 30px;
+	margin-right: 15px;
+}
+.text-quote p {
+	font-family: 'Aleo';
+	font-size: 35px;
+	color: #d21e72;
+}
+.tab-nav button {
+	flex: 1;
+	background-color: transparent;
+	color: #fff;
+	padding: 15px;
+	border: none;
+	cursor: pointer;
+	transition: .1s ease;
+}
+.tab-nav button:hover {
+	background-color: #242424;
+}
+.tab-nav .active {
+	background-color: #e9e4e4;
+	color: #3d3c3c;
+}
+.tab-nav .active:hover {
+	background-color: #f9f9f9;
+}
+.content {
+	background-color: #fff;
+}
+.content:not(.active) {
+	display: none;
+}
+.content.active {
+	display: block;
+}
+.content a {
+	display: block;
+	padding: 20px;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	color: #3d3c3c;
+	position: relative;
+}
+.text-bold {
+	font-weight: bold;
+}
+.tab-link:hover {
+	background-color: #fafafa;
+}
+.tab-link i {
+	position: absolute;
+	right: 30px;
+	font-size: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.card-2 {
+	background-color: #fff;
+}
+.card-2 .header {
+	position: relative;
+}
+.card-2 .header img {
+	width: 100%;
+	object-fit: cover;
+}
+.card-2 .header div {
+	position: absolute;
+	left: 20px;
+	top: 0;
+}
+.card-2 .body {
+	font-family: 'Aleo';
+	padding: 20px;
+	background-color: #fff;
+}
+.card-2 .footer {
+	background-color: #3d3c3c;
+	padding: 15px;
+	padding-left: 25px;
+}
+.posting {
+	display: flex;
+	flex-flow: row wrap;
+}
+.posting > div:first-child {
+	width: 100%;
+}
+.posting > .column {
+	flex: 50%;
+	max-width: 50%;
+	margin-top: 30px;
+}
+.column > div:not(:first-child) {
+	margin-top: 30px;
+}
+.relative {
+	position: relative !important;
+}
+.card-3 {
+	position: relative;
+}
+.card-3 img {
+	/*object-position: center;*/
+	object-fit: cover;
+	width: 100%;
+}
+.card-3 .header div{
+	position: absolute;
+	top: 0;
+	left: 20px;
+}
+.card-3 .body {
+	position: absolute;
+	bottom: 0;
+	padding: 20px;
+	background-color: rgba(0,0,0, .5);
+}
+.card-3 .body h4 {
+	color: #fff;
+	font-family: 'Aleo';
+	line-height: 30px;
+}
+.load-more {
+	margin-top: 30px;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	background-color: #3d3c3c;
+	border: 0;
+	width: 100%;
+	cursor: pointer;
+	transition: .2s ease;
+}
+.load-more:hover {
+	background-color: #fff;
+	color: #282828;
+}
+.card-1 .header {
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+}
+.card-1 .body {
+	padding: 30px;
+	background-color: #fff;
+}
+.card-1 .body p {
+	font-size: 20px;
+}
+.img-fluid {
+	width: 100%;
+	border: 2px solid #ff9b00; 
+}
+.text-gray-dark {
+	color: gray;
+}
+.wheather {
+	margin-top: 20px;
+}
+.wheather p {
+	margin-bottom: 0px;
+}
+.wheather div {
+	border-right: 2px dotted rgba(0,0,0,.5);
+}
+.search-form {
+	margin-top: 30px;
+}
+.input-search {
+	width: 100%;
+	background-color: #dad8d8;
+	color: #3d3c3c;
+	padding: 5px 10px;
+	outline: none;
+	border: none;
+}
+.search-form form {
+	position: relative;
+}
+.icon {
+	color: #3d3c3c;
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+	background-color: transparent;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+.no-border {
+	border: none;
+}
+.img-gallery {
+	width: 100%;
+	object-fit: cover;
+	cursor: pointer;
+}
+.gallery .col-4 {
+	position: relative;
+}
+.gallery .col-4:hover .overlay {
+	height: 100%;
+}
+.gallery .col-4:hover .overlay i {
+	opacity: 1;
+}
+.gallery .col-4 .overlay {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	left: 15px;
+	right: 15px;
+	height: 0;
+	transition: .3s ease;
+	background-color: rgba(0,0,0,.5);
+	cursor: pointer;
+}
+.overlay i {
+	opacity: 0;
+	font-size: 20px;
+	color: #fff;
+	transition: .3s ease-in-out;
+}
+footer {
+	padding: 10px;
+	color: #fff;
+	background-color: #282828;
+	text-align: center;
+}
+footer p i {
+	margin: 0px 5px;
+	color: #ff3548;
+}
+.modal-image {
+	/*display: none;*/
+	display: flex;
+	visibility: hidden;
+	opacity: 0;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 0;
+	height: 0;
+	background-color: rgba(0,0,0,.7);
+	padding: 40px;
+	align-items: center;
+	justify-content: center;
+	transform: translate(-50%, -50%);
+	transition: all .5s ease;
+}
+.modal-image.active {
+	visibility: visible;
+	opacity: 1;
+	width: 100%;
+	height: 100%;
+}
+.fly-left {
+	opacity: 1;
+	transform: translateX(-50%);
+}
+.close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #fff;
+	font-size: 30px;
+}
+.modal-content {
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;
+	background-color: transparent;
+	box-shadow: 1px 1px 5px 3px;
+	transition: .3s ease-out;
+}
+.wrapper-slider {
+	display: flex;
+	position: absolute;
+	bottom: 50px;
+}
+.wrapper-slider button {
+	background-color: #3d3c3c;
+	color: #fff;
+	font-size: 25px;
+	padding: 0 10px;
+	margin: 0 10px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 3px;
+	transition: .2s ease-out;
+}
+.wrapper-slider button:hover {
+	background-color: #545454;
+}

@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Aleo Light';
+  src: url("aleo-light-webfont.ttf");
+  /*src: url("aleo-light-webfont.eot?#iefix") format("embedded-opentype"), url("aleo-light-webfont.woff2") format("woff2"), url("aleo-light-webfont.woff") format("woff"), url("aleo-light-webfont.ttf") format("truetype");*/
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'Aleo';
+  src: url("aleo-regular-webfont.ttf");
+  /*src: url("aleo-regular-webfont.eot?#iefix") format("embedded-opentype"), url("aleo-regular-webfont.woff2") format("woff2"), url("aleo-regular-webfont.woff") format("woff"), url("aleo-regular-webfont.ttf") format("truetype");*/
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: 'Aleo Italic';
+  src: url("aleo-italic-webfont.ttf");
+  /*src: url("aleo-italic-webfont.eot?#iefix") format("embedded-opentype"), url("aleo-italic-webfont.woff2") format("woff2"), url("aleo-italic-webfont.woff") format("woff"), url("aleo-italic-webfont.ttf") format("truetype");*/
+  font-weight: 400;
+  font-style: italic; }
+@font-face {
+  font-family: 'Aleo Bold Italic';
+  src: url("aleo-bolditalic-webfont.ttf");
+  /*src: url("aleo-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("aleo-bolditalic-webfont.woff2") format("woff2"), url("aleo-bolditalic-webfont.woff") format("woff"), url("aleo-bolditalic-webfont.ttf") format("truetype");*/
+  font-weight: 700;
+  font-style: italic; }

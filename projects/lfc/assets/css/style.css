@@ -1,0 +1,258 @@
+/* Pallete 
+Red : #ee3737
+*/
+
+html, body {
+  padding: 0;
+  margin: 0;  
+}
+body {
+  font-family: 'Apercu Regular';
+  background: #fafafa;
+  overflow-x: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+a, a:hover, a:focus {
+  text-decoration: none;
+}
+button, button:focus {
+  outline: none;
+  border: none;
+}
+/* Color */
+.danger-2 {
+  background-color: #ee3737;
+}
+.btn-rounded {
+  border-radius: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.img-logo2 {
+  width: 130px;
+}
+.img-logo {
+  width: 250px;
+}
+.img-product {
+  width: 100%;
+  /* max-height: 500px; */
+  height: 200px;
+  object-fit: cover;
+}
+.desc-product {
+  margin-top: 10px;
+  font-size: .9em;
+}
+.container-fluid {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+header {
+  padding: 20px;
+  background-color: #b60b0b;
+  color: #fff;
+}
+header a, header a:hover {
+  color: #fff;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10%;
+}
+.navbar {
+  background-color: #b60b0b;
+  padding: 0;
+  box-shadow: 0 3px 3px 1px rgba(0, 0, 0, .2);
+}
+.navbar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.navbar ul li {
+  display: inline-block;
+}
+.navbar ul li a {
+  display: block;
+  color: #fff;
+  padding: 15px 25px;
+  font-size: 1.3em;
+  transition: .2s ease-in-out;
+}
+.navbar ul li a:hover {
+  background-color: #9b0404;
+  color: #e7e7e7;
+}
+.content-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  font-size: 1.3em;
+}
+.icon a:not(:first-child) {
+  color: #494949;
+  transition: .3s ease;
+}
+.icon a:not(:first-child):hover {
+  color: #ee3737;
+}
+.section {
+  margin: 50px 5%;
+}
+.section > div {
+  margin: 40px 0;
+}
+.section-title {
+  color: #ee3737;
+  position: relative;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  transform: .3s ease-in;
+}
+.section-title::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  border-bottom: 3px solid #ee3737;
+  width: 100px;
+}
+.row.product :not(:last-child) {
+  padding-right: 25px;
+}
+.slogan {
+  max-width: 200px;
+  font-size: 1.4em;
+  text-align: center;
+}
+.btn-menu, .btn-menu:focus {
+  position: relative;
+  display: block;
+  color: #fff;
+  font-size: 1.4em;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 14px 25px;
+  transition: .2 ease;
+}
+.btn-menu:hover {
+  background-color: #9b0404;
+  color: #fff;
+}
+.btn-menu span {
+  display: none;
+  font-size: .6em;
+  position: absolute;
+  top: 8px;
+  right: 15px;
+}
+.footer {  
+  width: 100%;
+  padding: 20px;
+  justify-content: space-between;
+  background-color: #332e2e;
+  color: #dadada;
+}
+footer {
+  font-family: 'Consolas', Courier, monospace;
+  text-align: center;
+  background-color: #1d1a1a;
+  padding: 10px;
+  font-size: .8em;
+  letter-spacing: 2px;
+  color: #858585;
+  
+}
+footer i {
+  color: #e01616;
+}
+.footer-icon {
+  font-size: 1.3em;
+  margin: 5px 15px;
+  color: #858585;
+}
+.footer-icon i {
+  transition: .3s ease;
+}
+.footer-icon #facebook:hover {
+  color: #1774EB;
+}
+.footer-icon #instagram:hover {
+  color: #f72e2e;
+}
+.footer-icon #line:hover {
+  color: #00B400;
+}
+.footer-icon:hover #whatsapp {
+  color: #1BD741;
+}
+.footer-icon.wa {
+  color: #dadada;
+}
+.footer-icon:hover {
+  color: rgb(182, 182, 182);
+}
+.footer-image {
+  width: 30px;
+  margin: 10px;
+  border-radius: 50%;
+  /* height: 50px; */
+}
+.menu-mobile {
+  position: fixed;
+  height: 100%;
+  width: 30%;
+  background-color: #F7F7F7;
+  z-index: 99;
+  padding: 0px;
+  left: -31%;
+  box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, .4);
+}
+.menu-mobile ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu-mobile ul li {
+  margin: 0;
+  padding: 0;
+}
+.menu-mobile ul li a {
+  display: block;
+  color: #464646;
+  font-size: 1.2em;
+  padding: 10px 40px;
+  text-transform: uppercase;
+}
+.menu-mobile ul li a:hover {
+  background-color: #e7e7e7;
+}
+.no-style {
+  background: none;
+  outline: none;
+  border: none;
+  color: #464646;
+}
+.btn-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1.3em;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 98;
+}

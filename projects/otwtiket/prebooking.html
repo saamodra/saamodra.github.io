@@ -1,0 +1,124 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Prebooking</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/select2.min.css">
+  <link rel="stylesheet" href="assets/font-awesome/css/all.css">
+  <link rel="stylesheet" href="assets/css/apercu.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/animation.css">
+</head>
+
+<body class="bg-gray">
+  <div class="border-top-blue"></div>
+
+  <!-- Navbar -->
+  <div class="navbar p-0">
+    <div class="nav-header">
+      <a href="index.html" class="nav-brand">
+        OTW Ticket
+      </a>
+      <div class="nav-user">
+        <a href="#" class="btn btn-primary"><i class="fa fa-user-circle"></i> Login</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container mt-3">
+    <form action="">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="prebooking-card">
+            <h4>Detail Pemesan</h4>
+            
+              <div class="form-group">
+                <label for="">Nama</label>
+                <input type="text" class="form-control" value="Samodra">
+              </div>
+              <div class="form-group">
+                <label for="">Email</label>
+                <input type="email" class="form-control" value="samodra30@gmail.com">
+              </div>
+              <div class="form-group">
+                <label for="">No. Telepon</label>
+                <input type="number" class="form-control" value="081234331514">
+              </div>
+          </div>
+  
+          <div class="prebooking-card">
+            <h4>Pilih Tempat Duduk</h4>
+            <div class="form-group">
+  
+              <div class="form-row">
+                <div class="col">
+                  <select name="seat_letter" class="form-control">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                    <option value="F">F</option>
+                  </select>
+                </div>
+  
+                <div class="col">
+                  <select name="seat_number" class="form-control">
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="prebooking-card">
+            <h4>Penerbangan</h4>
+            <div class="detail-order">
+              <p>JKT - DPS <i class="fas fa-circle"></i> 18 June 2019 <i class="fas fa-circle"></i> 20:30</p>
+            </div>
+            <h4>Harga</h4>
+            <div class="form-group dashed-line">
+              <label for="">Berangkat</label>
+              <p>
+                <span>Dewasa (x1)</span>
+                <span>IDR 1.200.000</span>
+              </p>
+            </div>
+            <div class="form-group dashed-line">
+              <label for="">Pajak dan biaya lainnya</label>
+              <p>
+                <span>Pajak</span>
+                <span>Termasuk</span>
+              </p>
+              <p>
+                <span>Biaya Layanan Penumpang</span>
+                <span>GRATIS</span>
+              </p>
+            </div>
+            <div class="form-group total">
+              <label for="">
+                <span>Total Pembayaran</span>
+                <span>IDR 1.200.000</span>
+              </label>
+            </div>
+            <button type="submit" class="btn-1 btn-orange">Pesan Tiket</button>
+          </div>
+        </div>
+      </div>
+    </form>
+
+  </div>
+
+
+  <footer>
+    &copy; 2019 OTW Ticket
+  </footer>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/select2.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>  
+</html>

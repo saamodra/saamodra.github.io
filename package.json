@@ -1,0 +1,13 @@
+{
+  "name": "saamodra.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "play"
+  },
+  "author": "Samodra",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
+}
