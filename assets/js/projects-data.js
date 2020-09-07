@@ -2,7 +2,7 @@ const projects = [{
     id: 1,
     title: "Aleo",
     featuredImage: "assets/images/projects/aleo.png",
-    url: "projects/Aleo"
+    url: "projects/aleo"
   },
   {
     id: 2,
@@ -14,13 +14,13 @@ const projects = [{
     id: 3,
     title: "Axit",
     featuredImage: "assets/images/projects/axit.png",
-    url: "projects/Axit"
+    url: "projects/axit"
   },
   {
     id: 4,
     title: "Creatif",
     featuredImage: "assets/images/projects/creatif.png",
-    url: "projects/Creatif"
+    url: "projects/creatif"
   },
   {
     id: 5,
@@ -38,13 +38,13 @@ const projects = [{
     id: 7,
     title: "Overcoding",
     featuredImage: "assets/images/projects/overcoding.png",
-    url: "projects/Overcoding"
+    url: "projects/overcoding"
   },
   {
     id: 8,
     title: "Overcovid",
     featuredImage: "assets/images/projects/overcovid.png",
-    url: "projects/Overcovid"
+    url: "projects/overcovid"
   },
   {
     id: 9,
