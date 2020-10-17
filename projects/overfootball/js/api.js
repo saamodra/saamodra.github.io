@@ -164,11 +164,11 @@ function loadDetailPage(id) {
         
       }
   };
-  xhttp.open("GET", "/pages/detailtim.html", true);
+  xhttp.open("GET", "../pages/detailtim.html", true);
   xhttp.send();
 
 
-  $.get("/pages/detailtim.html", function() {
+  $.get("../pages/detailtim.html", function() {
     getTeamById(id);
   });
 }

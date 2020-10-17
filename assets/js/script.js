@@ -143,13 +143,16 @@ $(document).ready(function () {
 function refreshProjects(gallerySize) {
   const maxPage = Math.ceil(projects.length / gallerySize);
   gallery.innerHTML = "";
+  
   projects.forEach((project, i) => {
     const projectItemElement = document.createElement('project-item');
     projectItemElement.project = project;
     if (i < gallerySize) {
       gallery.appendChild(projectItemElement);
     }
+    
   });
+
 
   var currentPage = 1;
 

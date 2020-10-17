@@ -49,7 +49,7 @@ const projects = [{
   {
     id: 9,
     title: "Overfootball",
-    featuredImage: "assets/images/projects/pex.png",
+    featuredImage: "assets/images/projects/overfootball.png",
     url: "projects/overfootball"
   },
   {
