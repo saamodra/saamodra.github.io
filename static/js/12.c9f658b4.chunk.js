@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-portfolio"]=this["webpackJsonpreact-portfolio"]||[]).push([[12],{66:function(t,e,c){},73:function(t,e,c){"use strict";c.r(e);c(0),c(66);var r=c(1);e.default=function(){return Object(r.jsx)("footer",{children:Object(r.jsx)("div",{className:"footer-contact-title",children:Object(r.jsxs)("p",{children:["Made with"," ",Object(r.jsx)("span",{className:"text-primary",children:"\u2665"})," ","by Samodra"]})})})}}}]);
+//# sourceMappingURL=12.c9f658b4.chunk.js.map
