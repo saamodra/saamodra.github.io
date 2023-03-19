@@ -1,8 +1,6 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable no-unused-vars */
 import React, { useRef, useEffect, Suspense } from 'react';
 import './App.scss';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import ReactGA from 'react-ga';
 import initializeReactGA from './analytics/initializeGoogleAnalytics';
 
@@ -53,9 +51,6 @@ function App() {
           <Suspense fallback={<div className="loading" style={{ height: '380px' }} />}>
             <Contact componentRef={(ref) => { refs.current[5] = ref; }} />
           </Suspense>
-          <Switch>
-            <Route path="/" exact />
-          </Switch>
         </main>
         <Suspense fallback={<div className="loading" style={{ height: '117px' }}>Loading...</div>}>
           <Footer />

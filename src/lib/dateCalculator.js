@@ -21,7 +21,6 @@ export const dateFormatter = (startDate, endDate) => {
   const ongoingDate = endDate.toLocaleDateString() === new Date().toLocaleDateString()
   const startDateText = `${startDate.toLocaleString('default', { month: 'long' })} ${startDate.getFullYear()}`;
   const endDateText = ongoingDate ? 'Present' : `${endDate.toLocaleString('default', { month: 'long' })} ${endDate.getFullYear()}`;
-  console.log(endDate.toLocaleDateString())
 
   return `${startDateText} - ${endDateText}`
 }
