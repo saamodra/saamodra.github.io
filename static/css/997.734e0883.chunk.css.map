@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/997.734e0883.chunk.css","mappings":"AAAA,OACE,kBAEA,SACE,yBACA,2BACA,eACA","sources":["components/Footer/Footer.scss"],"sourcesContent":["footer {\n  text-align: center;\n\n  p {\n    color: var(--f-primary-3);\n    font-family: var(--sf-mono);\n    font-size: .9em;\n    padding: 50px;\n  }\n}"],"names":[],"sourceRoot":""}

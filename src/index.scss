@@ -1,0 +1,96 @@
+:root {
+  --sf-pro-regular: 'SF Pro Regular', 'Arial', sans-serif;
+  --sf-pro-bold: 'SF Pro Bold', 'Arial', sans-serif;
+  --sf-mono: 'SF Mono', 'Arial', sans-serif;
+  --sf-mono-bold: 'SF Mono Bold', 'Arial', sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #797979;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #646464;
+}
+
+body.dark {
+  --primary-1: #a4161a;
+  --primary-2: #E84A4D;
+  --primary-3: #ff5355;
+  --bg-primary-1: #161a1d;
+  --bg-primary-1-shadow: rgba(2,12,27,0.7);
+  --bg-primary-1-transparent: rgba(22, 26, 29, 0.8);
+  --bg-primary-2: #1c191a;
+  --bg-primary-3: #352e30;
+  --bg-primary-4: rgb(33, 39, 44);
+  --bg-primary-4-shadow: rgba(15, 1, 1, 0.8);
+  --bg-secondary-1: #f3f3f3;
+  --f-primary-1: #e6f1ff;
+  --f-primary-2: #8892b0;
+  --f-primary-3: #858ea7;
+  --f-primary-4: #444857;
+  --f-primary-5: #a1acce;
+}
+
+body.light {
+  --primary-1: #a4161a;
+  --primary-2: rgb(229, 56, 59);
+  --primary-3: rgb(255, 83, 85);
+  --bg-primary-1: #ffffff;
+  --bg-primary-1-shadow: rgba(175, 175, 175, 0.7);
+  --bg-primary-1-transparent: rgba(255, 255, 255, 0.8);
+  --bg-primary-2: #e6c7c7;
+  --bg-primary-3: rgb(226, 226, 226);
+  --bg-primary-4: rgb(255, 244, 244);
+  --bg-primary-4-shadow: rgba(224, 224, 224, 0.9);
+  --bg-secondary-1: #f3f3f3;
+  --f-primary-1: #1d1d1d;
+  --f-primary-2: #62687c;
+  --f-primary-3: #505669;
+  --f-primary-4: #444857;
+  --f-primary-5: #484d5a;
+}
+
+/* Track */
+body.light::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(133, 133, 133, 0.6);
+}
+
+/* Handle */
+body.light::-webkit-scrollbar-thumb {
+  background: #b4b4b4;
+}
+
+/* Handle on hover */
+body.light::-webkit-scrollbar-thumb:hover {
+  background: #646464;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-primary-1);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

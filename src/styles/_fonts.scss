@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'SF Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Pro Display'), url('../fonts/sf-pro/SF-Pro-Display-Regular.otf') format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SF Pro Bold';
+    font-style: normal;
+    font-weight: bold;
+    src: local('SF Pro Display Bold'), url('../fonts/sf-pro/SF-Pro-Display-Bold.otf') format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SF Mono';
+    font-weight: normal;
+    src: local('SF Mono'), url('../fonts/sf-mono/SFMono-Regular.otf') format('woff');
+    font-display: swap;
+}

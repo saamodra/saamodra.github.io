@@ -1,0 +1,109 @@
+@mixin image-about($top, $left) {
+    border-radius: 5px;
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: $top;
+    left: $left;
+    transition: .3s ease;
+}
+
+.section-about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .section-image {
+        border-radius: 5px;
+        position: relative;
+        width: 60%;
+        margin-bottom: 70px;
+        display: flex;
+        align-items: center;
+
+        &::before {
+            @include image-about(4%, 4%);
+            border: 2px solid var(--primary-2);
+            z-index: -9;
+        }
+
+        img {
+            display: inline-block;
+            border-radius: 5px;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+
+        &::after {
+            @include image-about(0, 0);
+            background-color: rgba(229, 56, 59, .7);
+        }
+
+        &:hover {
+            &::after {
+                cursor: pointer;
+                background-color: transparent;
+            }
+
+            &::before {
+                top: 8%;
+                left: 8%;
+            }
+        }
+    }
+
+    .section-description {
+        p {
+            font-size: 1.05em;
+            font-family: var(--sf-pro-regular);
+            color: var(--f-primary-2);
+            line-height: 1.5;
+            margin-bottom: 20px;
+
+            .text-name {
+                font-weight: bold;
+                letter-spacing: 1px;
+                color: var(--f-primary-1);
+            }
+
+            a {
+                color: var(--primary-2);
+
+                &:hover {
+                    color: var(--primary-3);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .section-about-content {
+        flex-direction: row;
+
+        .section-image {
+            min-width: 200px;
+            margin-right: 50px;
+        }
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .section-about-content {
+        align-items: flex-start;
+
+        .section-image {
+            min-width: 250px;
+            margin-right: 70px;
+        }
+
+        .section-description {
+            p {
+                font-size: 1.15em;
+            }
+        }
+    }
+}
