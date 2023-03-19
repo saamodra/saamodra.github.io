@@ -9,8 +9,8 @@ export default [
     endDate: new Date(),
     description: [
       'Engagement Team: Vidio Web, Quiz, PNS, Chat, etc.',
-      'Tech Stacks: Ruby on Rails, React.js, Ktor Kotlin, etc.',
-      'Monitoring & Data: Datadog, Kibana, Metabase, Redash, etc',
+      'Tech Stacks: Ruby on Rails, React.js, Ktor, Spring, etc.',
+      'Monitoring & Data: Datadog, Kibana, Metabase, Redash, etc.',
       'Engineering Practices: Extreme Programming, Pair Programming, Test Driven Development, etc.',
     ],
   },
@@ -75,7 +75,7 @@ export default [
     company: 'Universitas Surakarta',
     role: 'Intern',
     startDate: new Date("2018-02-03"),
-    endDate: new Date("2018-03-03"),
+    endDate: new Date("2018-05-03"),
     description: [
       'Developed PHP Project about Incoming and Outgoing Mail Management',
       'Installed 8 access point for internet network at Surakarta University',
