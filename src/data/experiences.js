@@ -15,6 +15,20 @@ export default [
     ],
   },
   {
+    id: '7',
+    menu: 'Baparekraf Digitalent',
+    company: 'Baparekraf Digital Talent',
+    role: 'Course Facilitator',
+    startDate: new Date("2023-05-01"),
+    endDate: new Date("2023-08-01"),
+    description: [
+      'Course: <a href="https://www.dicoding.com/academies/219" class="text-primary" target="_blank" rel="noreferrer">Menjadi Front-End Web Developer Expert</a>',
+      'Held online meetings with BDT Participants',
+      'Monitored learning progress of 24 BDT participants on the Dicoding Front-End Expert Course',
+      'Helped 92% of BDT students graduate from the Dicoding Front-End Expert Course',
+    ],
+  },
+  {
     id: '5',
     menu: 'Astra Property',
     company: 'Astra Property',
