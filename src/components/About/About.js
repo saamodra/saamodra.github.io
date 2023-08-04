@@ -28,10 +28,7 @@ function About({ componentRef }) {
             {' '}
             <span className="text-name">Samodra</span>
             . I am a software engineer with industry experience building websites and web applications.
-            I specialize in frontend and have professional experience working with React.js, currently working with Ruby on Rails and React.js.
-          </p>
-          <p>
-            My main focus these days is to give my best at my workplace. Currently, I&apos;m also starting my bachelor degree extension program at Bina Nusantara University.
+            I have professional experience working with React.js, currently working with Ruby on Rails and React.js.
           </p>
         </div>
       </div>
