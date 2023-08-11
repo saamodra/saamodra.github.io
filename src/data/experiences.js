@@ -23,9 +23,9 @@ export default [
     endDate: new Date("2023-08-01"),
     description: [
       'Course: <a href="https://www.dicoding.com/academies/219" class="text-primary" target="_blank" rel="noreferrer">Menjadi Front-End Web Developer Expert</a>',
-      'Held online meetings with BDT Participants',
       'Monitored learning progress of 24 BDT participants on the Dicoding Front-End Expert Course',
-      'Helped 92% of BDT students graduate from the Dicoding Front-End Expert Course',
+      'Held online meetings with BDT Participants',
+      'Helped 96% of BDT students graduate from the Dicoding Front-End Expert Course',
     ],
   },
   {
@@ -51,8 +51,8 @@ export default [
     date: 'August 2021 - 10 January 2022',
     description: [
       'Course: <a href="https://www.dicoding.com/academies/163" class="text-primary" target="_blank" rel="noreferrer">Fundamental Front-End Web Development</a> & <a href="https://www.dicoding.com/academies/219" class="text-primary" target="_blank" rel="noreferrer">Menjadi Front-End Web Developer Expert</a>',
-      'Hold online meetings with IDCamp participants',
       'Monitored learning progress of 52 IDCamp participants on Fundamental Front-End & Front-End Expert Course',
+      'Held online meetings with IDCamp participants',
       'Helped 71% IDCamp students to graduate from Fundamental Front-End & Front-End Expert Course',
     ],
   },
