@@ -22,10 +22,9 @@ export default [
     startDate: new Date("2023-05-01"),
     endDate: new Date("2023-08-01"),
     description: [
-      'Facilitated the course: <a href="https://www.dicoding.com/academies/219" class="text-primary" target="_blank" rel="noreferrer">Menjadi Front-End Web Developer Expert</a>',
-      'Monitored the learning progress of 24 BDT participants on the Dicoding Front-End Expert Course',
+      'Monitored the learning progress of 24 BDT participants',
       'Conducted online meetings with BDT Participants',
-      'Assisted 96% of BDT students to graduate from the Dicoding Front-End Expert Course',
+      'Assisted 96% of BDT students to graduate',
     ],
   },
   {
@@ -50,10 +49,9 @@ export default [
     endDate: new Date("2022-01-10"),
     date: 'August 2021 - 10 January 2022',
     description: [
-      'Course: <a href="https://www.dicoding.com/academies/163" class="text-primary" target="_blank" rel="noreferrer">Fundamental Front-End Web Development</a> & <a href="https://www.dicoding.com/academies/219" class="text-primary" target="_blank" rel="noreferrer">Menjadi Front-End Web Developer Expert</a>',
-      'Monitored learning progress of 52 IDCamp participants on the Fundamental Front-End & Front-End Expert Course',
+      'Monitored learning progress of 52 IDCamp participants',
       'Conducted online meetings with IDCamp participants',
-      'Assisted 71% of IDCamp students to graduate from Fundamental Front-End & Front-End Expert Course',
+      'Assisted 71% of IDCamp students to graduate',
     ],
   },
   {
@@ -64,10 +62,10 @@ export default [
     startDate: new Date("2021-07-10"),
     endDate: new Date(),
     description: [
-      'Reviewed over 500 student submissions on the front-end learning path.',
-      'Received an average review rating of 4.9 from 404 students whose submissions I checked.',
-      'Provided advice on student submissions.',
-      'Answered questions on the <a href="https://www.dicoding.com" class="text-primary" target="_blank" rel="noreferrer">Dicoding Discussion Forum</a>.',
+      'Reviewed over 500 student submissions on the front-end learning path',
+      'Received an average review rating of 4.9 from 404 students whose submissions I checked',
+      'Provided advice on student submissions',
+      'Answered questions on the Dicoding Discussion Forum',
     ],
   },
   {
@@ -78,7 +76,7 @@ export default [
     startDate: new Date("2021-07-10"),
     endDate: new Date("2021-09-27"),
     description: [
-      'Answered more than 280 questions and got more than 200 verified answers on the <a href="https://www.kotakode.com/pertanyaan" class="text-primary" target="_blank" rel="noreferrer"> Kotakode</a> platform',
+      'Answered more than 280 questions and got more than 200 verified answers on the Kotakode platform',
       'Achieved no 2 outstanding student mentor title of kotakode student mentor batch 5',
       'Reached top 3 kotakode leaderboard ',
     ],
