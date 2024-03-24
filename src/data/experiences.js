@@ -8,10 +8,10 @@ export default [
     startDate: new Date("2022-08-15"),
     endDate: new Date(),
     description: [
-      'Engagement Team: Vidio Web, Quiz, PNS, Chat, etc.',
-      'Tech Stacks: Ruby on Rails, React.js, Ktor, Spring, etc.',
-      'Monitoring & Data: Datadog, Kibana, Metabase, Redash, etc.',
-      'Engineering Practices: Extreme Programming, Pair Programming, Test Driven Development, etc.',
+      'Developed the Survey-Based Games feature to increase user engagement',
+      'Reduced the OTP cost using WhatsApp OTP with fallback to SMS OTP',
+      'Revamped the Games tab to the Arcade tab to increase user awareness',
+      'Maintained and improved the communications feature, including Chat, Segments, Notification, and Inbox',
     ],
   },
   {
@@ -22,10 +22,10 @@ export default [
     startDate: new Date("2023-05-01"),
     endDate: new Date("2023-08-01"),
     description: [
-      'Course: <a href="https://www.dicoding.com/academies/219" class="text-primary" target="_blank" rel="noreferrer">Menjadi Front-End Web Developer Expert</a>',
-      'Monitored learning progress of 24 BDT participants on the Dicoding Front-End Expert Course',
-      'Held online meetings with BDT Participants',
-      'Helped 96% of BDT students graduate from the Dicoding Front-End Expert Course',
+      'Facilitated the course: <a href="https://www.dicoding.com/academies/219" class="text-primary" target="_blank" rel="noreferrer">Menjadi Front-End Web Developer Expert</a>',
+      'Monitored the learning progress of 24 BDT participants on the Dicoding Front-End Expert Course',
+      'Conducted online meetings with BDT Participants',
+      'Assisted 96% of BDT students to graduate from the Dicoding Front-End Expert Course',
     ],
   },
   {
@@ -36,7 +36,7 @@ export default [
     startDate: new Date("2022-01-04"),
     endDate: new Date("2022-07-29"),
     description: [
-      'Manage and maintenance React.js web app and React Native app',
+      'Maintained React.js web app and React Native app',
       'Testing and fix bugs of My Astra Property app',
       'Create screens documentation of My Astra Property and My Astra Property Admin Portal ',
     ],
@@ -51,9 +51,9 @@ export default [
     date: 'August 2021 - 10 January 2022',
     description: [
       'Course: <a href="https://www.dicoding.com/academies/163" class="text-primary" target="_blank" rel="noreferrer">Fundamental Front-End Web Development</a> & <a href="https://www.dicoding.com/academies/219" class="text-primary" target="_blank" rel="noreferrer">Menjadi Front-End Web Developer Expert</a>',
-      'Monitored learning progress of 52 IDCamp participants on Fundamental Front-End & Front-End Expert Course',
-      'Held online meetings with IDCamp participants',
-      'Helped 71% IDCamp students to graduate from Fundamental Front-End & Front-End Expert Course',
+      'Monitored learning progress of 52 IDCamp participants on the Fundamental Front-End & Front-End Expert Course',
+      'Conducted online meetings with IDCamp participants',
+      'Assisted 71% of IDCamp students to graduate from Fundamental Front-End & Front-End Expert Course',
     ],
   },
   {
@@ -64,10 +64,10 @@ export default [
     startDate: new Date("2021-07-10"),
     endDate: new Date(),
     description: [
-      'Reviewed more than 500 student submissions on front-end learning path',
-      'Got an average 4.9 review rating from 404 students whose submissions are checked',
-      'Provided advice about students submissions',
-      'Answer questions on the <a href="https://www.dicoding.com" class="text-primary" target="_blank" rel="noreferrer"> Dicoding Discussion Forum</a> Discussion Forum',
+      'Reviewed over 500 student submissions on the front-end learning path.',
+      'Received an average review rating of 4.9 from 404 students whose submissions I checked.',
+      'Provided advice on student submissions.',
+      'Answered questions on the <a href="https://www.dicoding.com" class="text-primary" target="_blank" rel="noreferrer">Dicoding Discussion Forum</a>.',
     ],
   },
   {
@@ -95,4 +95,4 @@ export default [
       'Installed 8 access point for internet network at Surakarta University',
     ],
   },
-];
+]

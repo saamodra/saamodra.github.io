@@ -8,9 +8,6 @@ import './Experience.scss';
 
 function Experience({ componentRef }) {
   const [tab, setTab] = useState(0);
-  const tabChange = (tabParam) => {
-    setTab(tabParam);
-  }
 
   return (
     <section className="section-experience" ref={componentRef}>
@@ -23,52 +20,46 @@ function Experience({ componentRef }) {
 
       <div className="section-content-experience">
         <aside className="experience-navigator">
-          {experiences.map((experience, index) => (
+          {experiences.map(({ id, menu }, index) => (
             <button
-              key={experience.id}
+              key={id}
               type="button"
               className={`experience-tab ${tab === index ? 'active' : ''}`}
-              onClick={() => tabChange(index)}
+              onClick={() => setTab(index)}
             >
-              {experience.menu}
-
+              {menu}
             </button>
           ))}
         </aside>
 
         <div className="overflow-hidden">
           <div className="experience-content-container" style={{ transform: `translateX(-${tab * 100}%)` }}>
-            {experiences.map((experience) => {
-              const { id, role, company, startDate, endDate, description } = experience;
-
-              return (
-                <div className="experience-content" key={id}>
-                  <div className="experience-title">
-                    <h3>
-                      {role}
+            {experiences.map(({ id, role, company, startDate, endDate, description }) => (
+              <div className="experience-content" key={id}>
+                <div className="experience-title">
+                  <h3>
+                    {role}
+                    {' '}
+                    <span>
+                      @
                       {' '}
-                      <span>
-                        @
-                        {' '}
-                        {company}
-                      </span>
-                    </h3>
-                    <p>{dateFormatter(startDate, endDate)} ({monthsDiffText(startDate, endDate)})</p>
-                  </div>
-                  <div className="section-description">
-                    <ul className="section-description-list">
-                      {description.map((desc) => (
-                        <li key={desc}>
-                          <FontAwesomeIcon icon={faCaretRight} />
-                          <p>{parse(desc)}</p>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
+                      {company}
+                    </span>
+                  </h3>
+                  <p>{dateFormatter(startDate, endDate)} ({monthsDiffText(startDate, endDate)})</p>
                 </div>
-              )}
-            )}
-
+                <div className="section-description">
+                  <ul className="section-description-list">
+                    {description.map((desc) => (
+                      <li key={desc}>
+                        <FontAwesomeIcon icon={faCaretRight} />
+                        <p>{parse(desc)}</p>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
